@@ -1,0 +1,22 @@
+{
+  "name": "@opl/ui",
+  "version": "1.0.0",
+  "private": true,
+  "description": "",
+  "main": "dist/opl-ui.cjs.js",
+  "module": "dist/opl-ui.esm.js",
+  "scripts": {
+    "test": "jest",
+    "build": "cross-env NODE_ENV=production preconstruct build",
+    "dev": "preconstruct dev",
+    "typecheck": "tsc"
+  },
+  "author": "Rafał Filipek",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/preset-typescript": "^7.12.7",
+    "cross-env": "^7.0.3",
+    "typescript": "^4.1.3"
+  }
+}
